@@ -1,16 +1,8 @@
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 
 import {
   Table,
   TableBody,
-  TableCaption,
   TableCell,
   TableHead,
   TableHeader,
@@ -37,7 +29,7 @@ export default async function Page() {
           <Table>
             <TableHeader>
               <TableRow>
-                <TableHead className="w-[100px]">Name</TableHead>
+                <TableHead className="w-[100px]">Name</TableHead>s
                 <TableHead className="text-right">Score</TableHead>
               </TableRow>
             </TableHeader>
