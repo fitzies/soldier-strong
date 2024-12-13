@@ -1,5 +1,6 @@
-import { Card, CardContent } from "@/components/ui/card";
+export const dynamic = "force-dynamic";
 
+import { Card, CardContent } from "@/components/ui/card";
 import {
   Table,
   TableBody,
@@ -23,13 +24,15 @@ export default async function Page() {
 
   return (
     <main className="w-screen flex flex-col justify-center items-center px-12 py-10 gap-6">
-      <h1 className="text-6xl font-medium">Soldier Strong Leaderboards</h1>
+      <h1 className="lg:text-6xl text-3xl font-medium">
+        Soldier Strong Leaderboards
+      </h1>
       <Card className="w-3/4">
         <CardContent>
-          <Table>
+          <Table className="w-full">
             <TableHeader>
               <TableRow>
-                <TableHead className="w-[100px]">Name</TableHead>s
+                <TableHead className="w-[100px]">Name</TableHead>
                 <TableHead className="text-right">Score</TableHead>
               </TableRow>
             </TableHeader>
